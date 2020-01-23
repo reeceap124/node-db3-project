@@ -1,7 +1,12 @@
 const db = require('../data/schemesDbConfig.js');
 
 module.exports = {
-    
+    find,
+    findById,
+    findSteps,
+    add,
+    update,
+    remove
 }
 
 function find() {
